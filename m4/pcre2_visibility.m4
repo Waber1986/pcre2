@@ -14,7 +14,7 @@ dnl Does *not* test for __visibility__("protected") - which has tricky
 dnl semantics (see the 'vismain' test in glibc) and does not exist e.g. on
 dnl MacOS X.
 dnl Does *not* test for __visibility__("internal") - which has processor
-dnl dependent semantics.
+dnl dependent semantics.c
 dnl Does *not* test for #pragma GCC visibility push(hidden) - which is
 dnl "really only recommended for legacy code".
 dnl Set the variable CFLAG_VISIBILITY.
